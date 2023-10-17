@@ -5,7 +5,7 @@
 const Box = ({ children })=> {
   return (
     <section
-      style={{ padding: '1em', border: '5px solid purple', color}}
+      style={{ padding: '1em', border: '5px solid purple'}}
     >
       {children}
     </section>
