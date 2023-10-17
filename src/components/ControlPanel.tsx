@@ -1,8 +1,5 @@
 
-type ControlPanelProps = {
-  name: string;
-  onChange: React.ChangeEventHandler<HTMLInputElement>;
-}
+
 
 const ControlPanel = ({ name, onChange }: ControlPanelProps) => {
   return (
