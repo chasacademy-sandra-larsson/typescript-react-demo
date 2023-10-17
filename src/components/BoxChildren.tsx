@@ -1,10 +1,8 @@
-import { PropsWithChildren } from "react";
 
-type BoxProps =  {
-    color?: "red" | "green" | "yellow";
-}
 
-const Box = ({ children, color = "green" }: PropsWithChildren<BoxProps>)=> {
+
+
+const Box = ({ children })=> {
   return (
     <section
       style={{ padding: '1em', border: '5px solid purple', color}}
